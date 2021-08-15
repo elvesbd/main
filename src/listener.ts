@@ -17,6 +17,5 @@ async function bootstrap() {
   });
 
   app.listen();
-  console.log('microservice is running');
 }
 bootstrap();

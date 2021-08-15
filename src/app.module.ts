@@ -10,6 +10,7 @@ import { ProductModule } from './product/product.module';
       'mongodb+srv://elvesbd:L_1983s@clustermicrosservices.so7gj.mongodb.net/nest_main?retryWrites=true&w=majority',
       {
         autoCreate: true,
+        useFindAndModify: false,
       },
     ),
     ProductModule,

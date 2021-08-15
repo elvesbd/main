@@ -15,7 +15,7 @@ export class Product {
   image: string;
 
   @Prop()
-  like: string;
+  likes: string;
 }
 
 export const ProductSchema = SchemaFactory.createForClass(Product);
